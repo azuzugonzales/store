@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+        <context:annotation-config/>
+        <context:component-scan base-package="com.home.it.jdbc"/>
+        <context:property-placeholder location="classpath*:db.properties"/>
+
+
+        <bean id="dataSource" class="com.mysql.jdbc.jdbc2.optional.MysqlDataSource">
+                <property name="user"           value="${db.user}"/>
+                <property name="password"       value="${db.password}"/>
+                <property name="serverName"     value="${db.host}"/>
+                <property name="port"           value="${db.port}"/>
+                <property name="databaseName"   value="${db.schema}"/>
+        </bean>
+
+        <bean   id="userDao" class="com.home.it.jdbc.dao.GenericDao"
+                factory-bean="userDaoFactory"
+                factory-method="getDao" />
+
+        <bean   id="garmentDao" class="com.home.it.jdbc.dao.GenericDao"
+                factory-bean="garmentDaoFactory"
+                factory-method="getDao" />
+
+        <bean   id="garmentDaoFactory" class="com.home.it.jdbc.dao.AbstractDaoFactory" factory-method="getDaoFactory">
+                <constructor-arg name="type" value="com.home.it.jdbc.beans.Garment" />
+        </bean>
+
+        <bean id="userDaoFactory"
+                class="com.home.it.jdbc.dao.AbstractDaoFactory"
+                factory-method="getDaoFactory">
+                <constructor-arg name="type" value="com.home.it.jdbc.beans.User" />
+
+        </bean>
+
+        <bean   id="managerFactory"
+                class="com.home.it.jdbc.dao.AbstractManagerFactory"
+                factory-method="getManagerFactory" />
+
+        <bean   id="garmentManager"
+                class="com.home.it.jdbc.dao.GarmentManager"
+                factory-bean="managerFactory"
+                factory-method="getGarmentManager" />
+
+        <bean   id="userManager"
+                class="com.home.it.jdbc.dao.UserManager"
+                factory-bean="managerFactory"
+                factory-method="getUserManager" />
+
+</beans>

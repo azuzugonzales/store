@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE log4j:configuration SYSTEM "log4j.dtd">
+<log4j:configuration debug="true"
+                     xmlns:log4j='http://jakarta.apache.org/log4j/'>
+
+    <appender name="jdbc" class="org.apache.log4j.RollingFileAppender">
+        <param name="maxFileSize" value="10KB" />
+        <param name="maxBackupIndex" value="5" />
+        <param name="file" value="${catalina.home}/logs/store-jdbc.log" />
+        <layout class="org.apache.log4j.PatternLayout">
+
+        </layout>
+    </appender>
+
+</log4j:configuration>
