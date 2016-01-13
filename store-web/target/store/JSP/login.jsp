@@ -10,7 +10,7 @@
     <c:choose>
         <%--|| user.name.equals('anonymous')--%>
         <c:when test="${user == null || user.name.equals('anonymous')}">
-            <from action-"/store/login" method="post">
+            <form action="/store/login" method="post">
 				<table border="0">
 					<tr>
 						<tb>
@@ -22,11 +22,19 @@
 							</h3>
 						</td>
 					</tr>
-						<c.if test="${loginFailed}">
+					<tr>
+						<td>
+							<h3>Password:</h3>
+						</td>
+						<td>
+							<h3>
+								<input type="password" name="password"/>
+							</h3>
+						</td>
+					</tr>
+						<c:if test="${loginFailed}">
 							<div style="display: ruby-text; color: crimson">Login failed</div>
 						</c:if>
-					</tr>
-					<tr>
 					<tr>
 						<td colspan="2" align="center">
 							<input type="submit" value="login" name="login" />
@@ -38,6 +46,14 @@
 				</table>
 			</form>
         </c:when>
+
+		<c:otherwise>
+			<c:out value="Welcome, ${user.name} ${user.lastName}!"/>
+			<form action="/store/login" method="post">
+				<input type="submit" value="logout" name="logout" />
+			</form>
+		</c:otherwise>
+
     </c:choose>
 		<table border="1">
 		<tr>Our garments</tr>
@@ -50,10 +66,10 @@
 						<a href="/store/garment?id=${garment.id}">${garment.name}</a>
 					</td>
 					<td>
-						<c:out value="$garment.description"/>
+						<c:out value="${garment.description}"/>
 					</td>
 					<td>
-						$<fmt:formatNumber pattern="#,##" value="${meal.price}" />
+						$<fmt:formatNumber pattern="#,##" value="${garment.price}" />
 					</td>
 				</tr>
 			</c:forEach>	

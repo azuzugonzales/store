@@ -29,7 +29,7 @@
             <tr>
                 <td>Price</td>
                 <td>
-                    $<fmt:formatNumver pattern="#,##" value="${garment.price}" />
+                    $<fmt:formatNumber pattern="#,##" value="${garment.price}" />
                 </td>
             </tr>
         </table>
