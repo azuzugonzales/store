@@ -41,7 +41,13 @@ public class GenericDaoImpl <T extends DataBaseBeanInterface<PK>, PK extends Ser
                 return id;
             }
         } catch (Exception e) {
-            throw new GenericDaoException("Error saving user to data base", e);
+            GenericDaoException external;
+            if (e.getMessage().toLowerCase().contains("unique")) {
+                external = new GenericDaoException(e.getMessage(), e);
+            } else {
+                external = new GenericDaoException("Error saving user to data base", e);
+            }
+            throw external;
         }
         throw new GenericDaoException("Error saving user to data base");
     }

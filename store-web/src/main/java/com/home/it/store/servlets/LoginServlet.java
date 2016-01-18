@@ -1,6 +1,5 @@
 package com.home.it.store.servlets;
 
-import com.home.it.jdbc.beans.Garment;
 import com.home.it.jdbc.beans.User;
 import com.home.it.jdbc.exception.GenericDaoException;
 import com.home.it.store.controllers.GarmentController;
@@ -16,11 +15,10 @@ import javax.servlet.http.HttpSession;
 import java.io.IOException;
 import java.util.Enumeration;
 import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
 
-import static com.home.it.store.servlets.ServletConstants.*;
 import static com.home.it.jdbc.utils.LoggingUtil.getCurrentClassName;
+import static com.home.it.store.servlets.ServletConstants.*;
 
 
 public class LoginServlet extends SpringContextLoaderAbstractServlet {
@@ -34,21 +32,8 @@ public class LoginServlet extends SpringContextLoaderAbstractServlet {
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        Enumeration<String> parameterNames = req.getParameterNames();
-        StringBuilder sb = new StringBuilder("?");
-        while (parameterNames.hasMoreElements()) {
-            String current = parameterNames.nextElement();
-            sb.append(current + "=" + req.getParameter(current));
-            sb.append("&");
-        }
-
-        String log = req.getRequestURL() + sb.toString();
-        logger.debug("Request received :" + (log.substring(0, log.length() -1)));
-
         resp.setContentType(TEXT_HTML);
-        List<Garment> garments = garmentController.getAllGarments();
-        req.setAttribute(GARMENTS, garments);
-        RequestDispatcher dispatcher = req.getRequestDispatcher(LOGIN_JSP);
+        RequestDispatcher dispatcher = req.getRequestDispatcher(MAIN_JSP);
         dispatcher.forward(req, resp);
     }
 
@@ -76,15 +61,17 @@ public class LoginServlet extends SpringContextLoaderAbstractServlet {
             }
         }
         if (params.get(REGISTER) != null) {
-            RequestDispatcher dispatcher = getServletContext().getRequestDispatcher(REGISTER_JSP);
+            //RequestDispatcher dispatcher = getServletContext().getRequestDispatcher(REGISTER_JSP);
+            resp.sendRedirect("/store/register");
+            //dispatcher.forward(req, resp);
+        } else {
+            if (params.get(LOGOUT) != null) {
+                HttpSession session = req.getSession(true);
+                session.removeAttribute(USER);
+            }
+            req.setAttribute(GARMENTS, garmentController.getAllGarments());
+            RequestDispatcher dispatcher = getServletContext().getRequestDispatcher(MAIN_JSP);
             dispatcher.forward(req, resp);
         }
-        if (params.get(LOGOUT) != null) {
-            HttpSession session = req.getSession(true);
-            session.removeAttribute(USER);
-        }
-        req.setAttribute(GARMENTS, garmentController.getAllGarments());
-        RequestDispatcher dispatcher = getServletContext().getRequestDispatcher(LOGIN_JSP);
-        dispatcher.forward(req, resp);
     }
 }

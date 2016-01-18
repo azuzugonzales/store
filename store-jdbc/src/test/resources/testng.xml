@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Store-Jdbc test suite">
+
+    <test name="setup">
+        <classes>
+            <class name="com.home.it.jdbc.dao.TestDbUtils" />
+        </classes>
+    </test>
+
+    <test name="GenericDaoImpl tests (Users case) ">
+        <classes>
+            <class name="com.home.it.jdbc.dao.TestGenericDaoImpl" />
+        </classes>
+    </test>
+
+</suite>

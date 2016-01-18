@@ -8,4 +8,6 @@ public abstract class AbstractManagerFactory {
     public abstract UserManager getUserManager();
 
     public abstract GarmentManager getGarmentManager();
+
+    public abstract AnonymousUserManager getAnonymousUserManager();
 }

@@ -25,6 +25,14 @@
                 factory-bean="garmentDaoFactory"
                 factory-method="getDao" />
 
+        <bean id="anonymousUserDao" class="com.home.it.jdbc.dao.GenericDao"
+              factory-bean="anonymousUserDaoFactory"
+              factory-method="getDao" />
+
+        <bean id="anonymousUserDaoFactory" class="com.home.it.jdbc.dao.AbstractDaoFactory" factory-method="getDaoFactory">
+                <constructor-arg name="type" value="com.home.it.jdbc.beans.AnonymousUser" />
+        </bean>
+
         <bean   id="garmentDaoFactory" class="com.home.it.jdbc.dao.AbstractDaoFactory" factory-method="getDaoFactory">
                 <constructor-arg name="type" value="com.home.it.jdbc.beans.Garment" />
         </bean>
@@ -33,7 +41,6 @@
                 class="com.home.it.jdbc.dao.AbstractDaoFactory"
                 factory-method="getDaoFactory">
                 <constructor-arg name="type" value="com.home.it.jdbc.beans.User" />
-
         </bean>
 
         <bean   id="managerFactory"
@@ -50,4 +57,8 @@
                 factory-bean="managerFactory"
                 factory-method="getUserManager" />
 
+        <bean id="anonymousUserManager"
+              class="com.home.it.jdbc.dao.UserManager"
+              factory-bean="managerFactory"
+              factory-method="getAnonymousUserManager" />
 </beans>
