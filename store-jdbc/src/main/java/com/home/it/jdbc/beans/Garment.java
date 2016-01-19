@@ -12,6 +12,7 @@ public class Garment extends AbstractDataBaseBean<Integer>
     private String name;
     private String description;
     private BigInteger price;
+    private String picturePath;
 
     public Garment() {
     }

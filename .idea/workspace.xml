@@ -2,32 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a9383b4c-7b73-4290-8c0d-819665d6eb3c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_4_2_3_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/testng_6_9_9.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/store-jdbc/src/main/java/com/home/it/jdbc/beans/AnonymousUser.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/store-jdbc/src/main/java/com/home/it/jdbc/dao/AnonymousUserManager.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/store-jdbc/src/test/java/com/home/it/jdbc/dao/TestDbUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/store-jdbc/src/test/java/com/home/it/jdbc/dao/TestGenericDaoImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/store-jdbc/src/test/resources/DB_CREATION.SQL" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/store-jdbc/src/test/resources/cafe-jdbc-test-context.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/store-jdbc/src/test/resources/db-test.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/store-jdbc/src/test/resources/testng.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/store-web/src/main/java/com/home/it/store/aop/ServletLoggingAspect.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/store_web_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/store_web_war_exploded.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/store-jdbc/pom.xml" afterPath="$PROJECT_DIR$/store-jdbc/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/store-jdbc/src/main/java/com/home/it/jdbc/dao/AbstractManagerFactory.java" afterPath="$PROJECT_DIR$/store-jdbc/src/main/java/com/home/it/jdbc/dao/AbstractManagerFactory.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/store-jdbc/src/main/java/com/home/it/jdbc/dao/GenericDaoImpl.java" afterPath="$PROJECT_DIR$/store-jdbc/src/main/java/com/home/it/jdbc/dao/GenericDaoImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/store-jdbc/src/main/resources/db.properties" afterPath="$PROJECT_DIR$/store-jdbc/src/main/resources/db.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/store-jdbc/src/main/resources/store-jdbc-context.xml" afterPath="$PROJECT_DIR$/store-jdbc/src/main/resources/store-jdbc-context.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/store-jdbc/store-jdbc.iml" afterPath="$PROJECT_DIR$/store-jdbc/store-jdbc.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/store-web/pom.xml" afterPath="$PROJECT_DIR$/store-web/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/store-web/src/main/java/com/home/it/store/listeners/AnonymousUserListener.java" afterPath="$PROJECT_DIR$/store-web/src/main/java/com/home/it/store/listeners/AnonymousUserListener.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/store-web/src/main/java/com/home/it/store/servlets/GarmentServlet.java" afterPath="$PROJECT_DIR$/store-web/src/main/java/com/home/it/store/servlets/GarmentServlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/store-web/src/main/java/com/home/it/store/servlets/LoginServlet.java" afterPath="$PROJECT_DIR$/store-web/src/main/java/com/home/it/store/servlets/LoginServlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/store-web/store-web.iml" afterPath="$PROJECT_DIR$/store-web/store-web.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/store.iml" afterPath="$PROJECT_DIR$/store.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/store-jdbc/src/main/java/com/home/it/jdbc/beans/Garment.java" afterPath="$PROJECT_DIR$/store-jdbc/src/main/java/com/home/it/jdbc/beans/Garment.java" />
     </list>
     <ignored path="store.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -69,11 +46,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AbstractManagerFactory.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AbstractManagerFactory.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/store-jdbc/src/main/java/com/home/it/jdbc/dao/AbstractManagerFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.17171717">
+            <state vertical-scroll-proportion="0.0">
               <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Garment.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/store-jdbc/src/main/java/com/home/it/jdbc/beans/Garment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.20512821">
+              <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -103,11 +90,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/store-web/src/main/webapp/login.jsp" />
         <option value="$PROJECT_DIR$/store-web/src/main/java/com/home/it/store/controllers/Autowired.java" />
         <option value="$PROJECT_DIR$/store-jdbc/src/main/java/com/home/it/jdbc/exception/GenericDaoException.java" />
         <option value="$PROJECT_DIR$/store-jdbc/src/main/java/com/home/it/jdbc/beans/DataBaseBeanInterface.java" />
-        <option value="$PROJECT_DIR$/store-jdbc/src/main/java/com/home/it/jdbc/beans/Garment.java" />
         <option value="$PROJECT_DIR$/store-jdbc/src/main/java/com/home/it/jdbc/utils/LoggingUtil.java" />
         <option value="$PROJECT_DIR$/store-jdbc/src/main/java/com/home/it/jdbc/beans/User.java" />
         <option value="$PROJECT_DIR$/store-jdbc/src/main/java/com/home/it/jdbc/beans/AbstractDataBaseBean.java" />
@@ -142,7 +127,6 @@
         <option value="$PROJECT_DIR$/store-jdbc/src/test/java/com/home/it/jdbc/dao/TestGenericDaoImpl.java" />
         <option value="$PROJECT_DIR$/store-jdbc/src/test/resources/cafe-jdbc-test-context.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/store-jdbc/src/main/java/com/home/it/jdbc/dao/AbstractManagerFactory.java" />
         <option value="$PROJECT_DIR$/store-jdbc/src/main/java/com/home/it/jdbc/beans/AnonymousUser.java" />
         <option value="$PROJECT_DIR$/store-jdbc/src/main/java/com/home/it/jdbc/dao/AnonymousUserManager.java" />
         <option value="$PROJECT_DIR$/store-jdbc/src/test/resources/testng.xml" />
@@ -154,6 +138,9 @@
         <option value="$PROJECT_DIR$/store-jdbc/src/main/java/com/home/it/jdbc/dao/GenericDaoImpl.java" />
         <option value="$PROJECT_DIR$/store-web/src/main/java/com/home/it/store/servlets/LoginServlet.java" />
         <option value="$PROJECT_DIR$/store-web/src/main/java/com/home/it/store/servlets/GarmentServlet.java" />
+        <option value="$PROJECT_DIR$/store-jdbc/src/main/java/com/home/it/jdbc/dao/AbstractManagerFactory.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/store-jdbc/src/main/java/com/home/it/jdbc/beans/Garment.java" />
       </list>
     </option>
   </component>
@@ -219,7 +206,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-2" />
     <option name="y" value="30" />
-    <option name="width" value="1106" />
+    <option name="width" value="1225" />
     <option name="height" value="1050" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -275,6 +262,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -682,10 +670,43 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="store" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="store" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="store-jdbc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jdbc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="beans" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -695,7 +716,7 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.copyJavadoc" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../sourceit/cafe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../cafe" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15306123" />
     <property name="project.structure.side.proportion" value="0.44082332" />
@@ -710,6 +731,7 @@
     <property name="SearchEverywhereHistoryKey" value="aspect&#9;FILE&#9;file://D:/document/Dropbox/workspace/store/store-web/src/main/java/com/home/it/store/aop/ServletLoggingAspect.java&#10;settings.xml&#9;FILE&#9;file://D:/document/Dropbox/workspace/store/.idea/copyright/profiles_settings.xml" />
     <property name="findjar.last.used.dir" value="$MAVEN_REPOSITORY$/org/apache" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/store-jdbc/src/test/java/com/home/it/jdbc/dao" />
+    <property name="ignore_missing_gitignore" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -1206,11 +1228,12 @@
       <workItem from="1452772951830" duration="4915000" />
       <workItem from="1452938455764" duration="7719000" />
       <workItem from="1453022982360" duration="1168000" />
+      <workItem from="1453196448106" duration="497000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37531000" />
+    <option name="totallyTimeSpent" value="38028000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1222,7 +1245,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-2" y="30" width="1106" height="1050" extended-state="0" />
+    <frame x="-2" y="30" width="1225" height="1050" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1236,15 +1259,15 @@
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44501278" sideWeight="0.5031696" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24784483" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2472767" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32963374" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21884735" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.291587" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31587982" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297062" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1254,18 +1277,18 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3063063" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33773378" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26941746" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1317,13 +1340,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../sourceit/cafe/cafe-jdbc/src/main/java/com/source/it/jdbc/beans/Meal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.40522134">
-          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/store-web/src/main/java/com/home/it/store/controllers/GarmentController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.058419243">
@@ -1370,13 +1386,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0764045">
           <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/store-jdbc/src/main/java/com/home/it/jdbc/beans/Garment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.24157304">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1658,10 +1667,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.05730337">
+          <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/store-jdbc/src/main/java/com/home/it/jdbc/dao/AbstractManagerFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.17171717">
+        <state vertical-scroll-proportion="0.0">
           <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/store-jdbc/src/main/java/com/home/it/jdbc/beans/Garment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.20512821">
+          <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
           <folding />
         </state>
       </provider>
