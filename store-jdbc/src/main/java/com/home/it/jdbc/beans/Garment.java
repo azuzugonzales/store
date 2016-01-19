@@ -24,7 +24,7 @@ public class Garment extends AbstractDataBaseBean<Integer>
         this.price = price;
     }
 
-    @Override
+    /**@Override
     public String getCreateSql() {
         return CREATE_SQL;
     }
@@ -42,7 +42,7 @@ public class Garment extends AbstractDataBaseBean<Integer>
     @Override
     public String getDeleteSql() {
         return DELETE_SQL;
-    }
+    }*/
 
     @Override
     public Integer getId() {
@@ -59,12 +59,13 @@ public class Garment extends AbstractDataBaseBean<Integer>
         stmt.setString(1, name);
         stmt.setString(2, description);
         stmt.setLong(3, price.longValue());
+        stmt.setString(4, picturePath);
     }
 
-    @Override
+    /**@Override
     public void prepareReadStatement(PreparedStatement stmt, Integer id) throws SQLException {
         stmt.setInt(1, id);
-    }
+    }*/
 
     @Override
     public void setDataFormResultSet(ResultSet resultSet) throws SQLException {
@@ -72,6 +73,7 @@ public class Garment extends AbstractDataBaseBean<Integer>
         description = resultSet.getString(2);
         price       = BigInteger.valueOf(
                         resultSet.getLong(3));
+        picturePath = resultSet.getString(4);
     }
 
     @Override
@@ -102,5 +104,9 @@ public class Garment extends AbstractDataBaseBean<Integer>
 
     public void setPrice(BigInteger price) {
         this.price = price;
+    }
+
+    public String getPicturePath() {
+        return picturePath;
     }
 }
