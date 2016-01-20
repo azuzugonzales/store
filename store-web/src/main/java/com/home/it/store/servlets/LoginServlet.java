@@ -61,9 +61,7 @@ public class LoginServlet extends SpringContextLoaderAbstractServlet {
             }
         }
         if (params.get(REGISTER) != null) {
-            //RequestDispatcher dispatcher = getServletContext().getRequestDispatcher(REGISTER_JSP);
             resp.sendRedirect("/store/register");
-            //dispatcher.forward(req, resp);
         } else {
             if (params.get(LOGOUT) != null) {
                 HttpSession session = req.getSession(true);
