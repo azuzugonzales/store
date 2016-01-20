@@ -36,7 +36,7 @@
         <url-pattern>/main</url-pattern>
     </servlet-mapping>
 
-    <filter>
+    <!--<filter>
         <filter-name>registerFilter</filter-name>
         <filter-class>com.home.it.store.filters.RegisterFilter</filter-class>
     </filter>
@@ -44,7 +44,7 @@
     <filter-mapping>
         <filter-name>registerFilter</filter-name>
         <url-pattern>/register</url-pattern>
-    </filter-mapping>
+    </filter-mapping>-->
 
     <context-param>
         <param-name>contextConfigLocation</param-name>

@@ -24,7 +24,9 @@
         <h2.version>1.4.190</h2.version>
         <apache.tiles.version>3.0.4</apache.tiles.version>
         <mockito.version>1.10.19</mockito.version>
-        <org.aspectj-version>1.6.4</org.aspectj-version>
+        <org.aspectj-version>1.7.0</org.aspectj-version>
+        <aspectj.version>1.7.0</aspectj.version>
+        <common.validator.version>1.4.1</common.validator.version>
     </properties>
 
     <dependencyManagement>
@@ -129,20 +131,20 @@
             </dependency>
 
             <dependency>
+                <groupId>org.springframework</groupId>
+                <artifactId>spring-aspects</artifactId>
+                <version>${spring.version}</version>
+            </dependency>
+
+            <dependency>
                 <groupId>org.aspectj</groupId>
-                <artifactId>aspectjtools</artifactId>
+                <artifactId>aspectjrt</artifactId>
                 <version>${org.aspectj-version}</version>
             </dependency>
 
             <dependency>
                 <groupId>org.aspectj</groupId>
                 <artifactId>aspectjweaver</artifactId>
-                <version>${org.aspectj-version}</version>
-            </dependency>
-
-            <dependency>
-                <groupId>org.aspectj</groupId>
-                <artifactId>aspectjrt</artifactId>
                 <version>${org.aspectj-version}</version>
             </dependency>
 
@@ -167,7 +169,61 @@
                 <scope>test</scope>
             </dependency>
 
+            <dependency>
+                <groupId>commons-validator</groupId>
+                <artifactId>commons-validator</artifactId>
+                <version>${common.validator.version}</version>
+            </dependency>
+
         </dependencies>
     </dependencyManagement>
+
+    <build>
+        <pluginManagement>
+            <plugins>
+                <plugin>
+                    <groupId>org.codehaus.mojo</groupId>
+                    <artifactId>aspect-maven-plugin</artifactId>
+                    <version>1.4</version>
+                    <configuration>
+                        <showWeaverInfo>true</showWeaverInfo>
+                        <source>${jdk.version}</source>
+                        <target>${jdk.version}</target>
+                        <Xlint>ignore</Xlint>
+                        <complianceLevel>${jdk.version}</complianceLevel>
+                        <encoding>UTF-8</encoding>
+                        <verbose>false</verbose>
+                        <aspectLibraries>
+                            <aspectLibrary>
+                                <groupId>org.springframework</groupId>
+                                <artifactId>spring-aspects</artifactId>
+                            </aspectLibrary>
+                        </aspectLibraries>
+                    </configuration>
+
+                    <executions>
+                        <execution>
+                            <goals>
+                                <goal>compile</goal>
+                                <goal>test-compile</goal>
+                            </goals>
+                        </execution>
+                    </executions>
+                    <dependencies>
+                        <dependency>
+                            <groupId>org.aspectj</groupId>
+                            <artifactId>aspectjrt</artifactId>
+                            <version>${aspectj.version}</version>
+                        </dependency>
+                        <dependency>
+                            <groupId>org.aspectj</groupId>
+                            <artifactId>aspectjtools</artifactId>
+                            <version>${aspectj.version}</version>
+                        </dependency>
+                    </dependencies>
+                </plugin>
+            </plugins>
+        </pluginManagement>
+    </build>
 
 </project>

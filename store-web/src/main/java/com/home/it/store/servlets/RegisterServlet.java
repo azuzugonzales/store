@@ -50,6 +50,10 @@ public class RegisterServlet extends SpringContextLoaderAbstractServlet {
                 req.setAttribute(EMAIL_ERROR, EMAIL_NOT_VALID);
                 errorsInForm = true;
             }
+            if (!errorsInForm) {
+                User user = createUser(params);
+                userController.addUser(user);
+            }
         } catch (GenericDaoException e) {
             if (e.getMessage().toLowerCase().contains("email_unique")) {
                 req.setAttribute(EMAIL_ERROR, EMAIL_MESSAGE);
@@ -74,7 +78,7 @@ public class RegisterServlet extends SpringContextLoaderAbstractServlet {
         user.setLogin(params.get(LOGIN));
         user.setEmail(params.get(EMAIL));
         user.setPassword(params.get(PASSWORD));
-        user.setDateOfBirth(Date.valueOf(DATE_OF_BIRTH));
+        user.setDateOfBirth(Date.valueOf(params.get(DATE_OF_BIRTH)));
         return user;
     }
 

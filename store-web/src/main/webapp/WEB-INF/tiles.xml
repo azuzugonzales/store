@@ -6,8 +6,17 @@
 <tiles-definitions>
 
     <definition name="base.definition"
-                template="/JSP/template.jsp">
+                template="/JSP/templates/template.jsp">
+        <put-attribute name="header" value="JSP/login.jsp" />
         <put-attribute name="menu" value="/JSP/menu.jsp" />
+        <put-attribute name="body" value="JSP/garment.jsp" />
+    </definition>
+
+    <definition name="register.definition"
+                template="/JSP/templates/template.jsp">
+        <put-attribute name="header" value="/JSP/login.jsp" />
+        <put-attribute name="menu" value="/JSP/menu.jsp" />
+        <put-attribute name="body" value="/JSP/" />
     </definition>
 </tiles-definitions>
 
