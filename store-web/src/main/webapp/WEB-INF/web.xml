@@ -17,6 +17,19 @@
         <servlet-name>register</servlet-name>
         <servlet-class>com.home.it.store.servlets.RegisterServlet</servlet-class>
     </servlet>
+    <servlet-mapping>
+        <servlet-name>register</servlet-name>
+        <url-pattern>/register</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>book</servlet-name>
+        <servlet-class>com.home.it.store.servlets.BookServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>book</servlet-name>
+        <url-pattern>/book</url-pattern>
+    </servlet-mapping>
 
     <servlet>
         <servlet-name>garment</servlet-name>
@@ -34,6 +47,15 @@
     <servlet-mapping>
         <servlet-name>main</servlet-name>
         <url-pattern>/main</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>imageLoader</servlet-name>
+        <servlet-class>com.home.it.store.servlets.GarmentImageLoadServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>imageLoader</servlet-name>
+        <url-pattern>/book/image</url-pattern>
     </servlet-mapping>
 
     <!--<filter>
@@ -53,6 +75,14 @@
 
     <listener>
         <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
+    </listener>
+    
+    <listener>
+        <listener-class>com.home.it.store.listeners.AnonymousUserListener</listener-class>
+    </listener>
+    
+    <listener>
+        <listener-class>org.apache.tiles.extras.complete.CompleteAutoloadTilesListener</listener-class>
     </listener>
 
 </web-app>

@@ -2,13 +2,47 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a9383b4c-7b73-4290-8c0d-819665d6eb3c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/store-web/src/main/webapp/JSP/registerpage.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/store-web/src/main/webapp/JSP/templates/template.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/store-web/src/main/java/com/home/it/store/servlets/GarmentImageLoadServlet.java" afterPath="$PROJECT_DIR$/store-web/src/main/java/com/home/it/store/servlets/GarmentImageLoadServlet.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/store-web/src/main/webapp/resources/booklet/images/arrow-next.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/store-web/src/main/webapp/resources/booklet/images/arrow-prev.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/store-web/src/main/webapp/resources/booklet/images/shadow-top-back.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/store-web/src/main/webapp/resources/booklet/images/shadow-top-forward.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/store-web/src/main/webapp/resources/booklet/images/shadow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/store-web/src/main/webapp/resources/images/1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/store-web/src/main/webapp/resources/images/2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/store-web/src/main/webapp/resources/images/3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/store-web/src/main/webapp/resources/images/4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/store-web/src/main/webapp/resources/images/404.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/store-web/src/main/webapp/resources/images/5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/store-web/src/main/webapp/resources/images/500.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/store-web/src/main/webapp/resources/images/6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/store-web/src/main/webapp/resources/images/7.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/store-web/src/main/webapp/resources/images/8.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/store-web/src/main/webapp/resources/images/ajax-loader.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/store-web/src/main/webapp/resources/images/bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/store-web/src/main/webapp/resources/images/buttons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/store-web/src/main/webapp/resources/images/chocolate-background.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/store-web/src/main/webapp/resources/images/circle.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/store-web/src/main/webapp/resources/images/circle_article.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/store-web/src/main/webapp/resources/images/circle_demo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/store-web/src/main/webapp/resources/images/h1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/store-web/src/main/webapp/resources/images/left_bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/store-web/src/main/webapp/resources/images/logout_button_0.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/store-web/src/main/webapp/resources/images/meal_1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/store-web/src/main/webapp/resources/images/meal_2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/store-web/src/main/webapp/resources/images/meal_3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/store-web/src/main/webapp/resources/images/right_bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/store-web/src/main/webapp/resources/images/vert_css_menu_0.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/store-web/src/main/webapp/resources/images/vert_css_menu_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/store-web/src/main/webapp/resources/images/wood.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/store-web/src/main/webapp/resources/booklet/License.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/store-web/src/main/webapp/resources/booklet/jquery-1.4.4.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/store-web/src/main/webapp/resources/booklet/jquery.booklet.1.1.0.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/store-web/src/main/webapp/resources/booklet/jquery.booklet.1.1.0.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/store-web/src/main/webapp/resources/booklet/jquery.booklet.1.1.0.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/store-web/src/main/webapp/resources/booklet/jquery.easing.1.3.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/store-web/src/main/webapp/resources/scripts/validate.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/store-web/src/main/java/com/home/it/store/servlets/RegisterServlet.java" afterPath="$PROJECT_DIR$/store-web/src/main/java/com/home/it/store/servlets/RegisterServlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/store-web/src/main/webapp/WEB-INF/tiles.xml" afterPath="$PROJECT_DIR$/store-web/src/main/webapp/WEB-INF/tiles.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/store-web/src/main/webapp/JSP/registerpage.jsp" afterPath="$PROJECT_DIR$/store-web/src/main/webapp/JSP/registerpage.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/store-web/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/store-web/src/main/webapp/WEB-INF/web.xml" />
     </list>
     <ignored path="store.iws" />
@@ -40,13 +74,13 @@
     <favorites_list name="store" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.52070177">
+    <splitter split-orientation="horizontal" split-proportion="0.39809385">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="template.jsp" pinned="false" current-in-tab="false">
+          <file leaf-file-name="template.jsp" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/store-web/src/main/webapp/JSP/templates/template.jsp">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-3.9230769">
+                <state vertical-scroll-proportion="0.11805555">
                   <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
                   <folding />
                 </state>
@@ -66,18 +100,18 @@
           <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/store-web/src/main/webapp/WEB-INF/web.xml">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-24.846153">
-                  <caret line="38" column="8" selection-start-line="38" selection-start-column="4" selection-end-line="46" selection-end-column="24" />
+                <state vertical-scroll-proportion="-27.346153">
+                  <caret line="84" column="35" selection-start-line="84" selection-start-column="35" selection-end-line="84" selection-end-column="35" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="BookServlet.java" pinned="false" current-in-tab="true">
+          <file leaf-file-name="BookServlet.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/store-web/src/main/java/com/home/it/store/servlets/BookServlet.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.66853935">
-                  <caret line="47" column="36" selection-start-line="47" selection-start-column="36" selection-end-line="47" selection-end-column="36" />
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -87,23 +121,31 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="RegisterServlet.java" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/store-web/src/main/java/com/home/it/store/servlets/RegisterServlet.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="1.0314606">
-                  <caret line="54" column="43" selection-start-line="54" selection-start-column="43" selection-end-line="54" selection-end-column="43" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file leaf-file-name="tiles.xml" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/store-web/src/main/webapp/WEB-INF/tiles.xml">
               <provider selected="true" editor-type-id="text-editor">
                 <state vertical-scroll-proportion="-16.346153">
                   <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="registerpage.jsp" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/store-web/src/main/webapp/JSP/registerpage.jsp">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.2951389">
+                  <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="validate.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/store-web/src/main/webapp/resources/scripts/validate.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="27" column="62" selection-start-line="27" selection-start-column="62" selection-end-line="27" selection-end-column="62" />
                   <folding />
                 </state>
               </provider>
@@ -142,7 +184,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/store-jdbc/src/main/java/com/home/it/jdbc/beans/AbstractDataBaseBean.java" />
         <option value="$PROJECT_DIR$/store-jdbc/src/main/java/com/home/it/jdbc/dao/AbstractDaoFactory.java" />
         <option value="$PROJECT_DIR$/store-jdbc/src/main/java/com/home/it/jdbc/dao/GenericDao.java" />
         <option value="$PROJECT_DIR$/store-jdbc/src/main/java/com/home/it/jdbc/dao/MySqlDaoFactory.java" />
@@ -189,10 +230,11 @@
         <option value="$PROJECT_DIR$/store-web/src/main/java/com/home/it/store/servlets/GarmentImageLoadServlet.java" />
         <option value="$PROJECT_DIR$/store-web/src/main/webapp/JSP/templates/template.jsp" />
         <option value="$PROJECT_DIR$/store-web/src/main/webapp/WEB-INF/tiles.xml" />
-        <option value="$PROJECT_DIR$/store-web/src/main/webapp/JSP/registerpage.jsp" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/store-web/src/main/java/com/home/it/store/servlets/RegisterServlet.java" />
         <option value="$PROJECT_DIR$/store-web/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/store-web/src/main/webapp/resources/scripts/validate.js" />
+        <option value="$PROJECT_DIR$/store-web/src/main/webapp/JSP/registerpage.jsp" />
       </list>
     </option>
   </component>
@@ -402,6 +444,74 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="store" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="store" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="store-web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="store" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="store" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="store-web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JSP" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -824,14 +934,17 @@
     <property name="ignore_missing_gitignore" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\document\Dropbox\workspace\store\store-jdbc\src\test\java\com\home\it\jdbc\dao" />
+      <recent name="D:\document\Dropbox\workspace\store\store-jdbc\src\test\java" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\document\workspace\store\store-web\src\main\webapp\resources" />
+    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.home.it.jdbc.beans" />
       <recent name="com.home.it.jdbc.dao" />
       <recent name="com.home.it.store.controllers" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\document\Dropbox\workspace\store\store-jdbc\src\test\java\com\home\it\jdbc\dao" />
-      <recent name="D:\document\Dropbox\workspace\store\store-jdbc\src\test\java" />
     </key>
   </component>
   <component name="RunManager" selected="Remote.Tomcat">
@@ -1320,7 +1433,7 @@
       <workItem from="1453022982360" duration="1168000" />
       <workItem from="1453196448106" duration="3477000" />
       <workItem from="1453212552031" duration="141000" />
-      <workItem from="1453275832257" duration="11742000" />
+      <workItem from="1453275832257" duration="14215000" />
     </task>
     <task id="LOCAL-00001" summary="j 19_01">
       <created>1453212630735</created>
@@ -1338,7 +1451,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52891000" />
+    <option name="totallyTimeSpent" value="55364000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1350,7 +1463,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="83" y="31" width="1836" height="1050" extended-state="0" />
+    <frame x="83" y="31" width="1836" height="1050" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1362,6 +1475,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32897604" sideWeight="0.70115966" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39978212" sideWeight="0.49683043" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2472767" sideWeight="0.5102587" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2472767" sideWeight="0.4897413" order="7" side_tool="false" content_ui="tabs" />
@@ -1370,14 +1484,13 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32963374" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21884735" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19763513" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23198198" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297062" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39978212" sideWeight="0.49683043" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3063063" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -1436,13 +1549,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/mysql/mysql-connector-java/5.1.37/mysql-connector-java-5.1.37.jar!/com/mysql/jdbc/jdbc2/optional/MysqlDataSource.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.35457706">
-          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/store-jdbc/src/main/java/com/home/it/jdbc/exception/GenericDaoException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1776,37 +1882,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/store-web/src/main/java/com/home/it/store/servlets/GarmentImageLoadServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5157303">
-          <caret line="27" column="70" selection-start-line="27" selection-start-column="70" selection-end-line="27" selection-end-column="70" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/store-web/src/main/webapp/JSP/registerpage.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.019675925">
-          <caret line="1" column="60" selection-start-line="1" selection-start-column="60" selection-end-line="1" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/store-web/src/main/webapp/JSP/templates/template.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.9230769">
-          <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/store-web/src/main/webapp/JSP/register.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-27.692308">
           <caret line="75" column="12" selection-start-line="75" selection-start-column="12" selection-end-line="75" selection-end-column="12" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/store-web/src/main/java/com/home/it/store/servlets/BookServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/store-web/src/main/java/com/home/it/store/servlets/RegisterServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.8910112">
+          <caret line="99" column="0" selection-start-line="99" selection-start-column="0" selection-end-line="99" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1818,10 +1916,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/store-web/src/main/java/com/home/it/store/servlets/RegisterServlet.java">
+    <entry file="file://$PROJECT_DIR$/store-web/src/main/java/com/home/it/store/servlets/GarmentImageLoadServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.0314606">
-          <caret line="54" column="43" selection-start-line="54" selection-start-column="43" selection-end-line="54" selection-end-column="43" />
+        <state vertical-scroll-proportion="0.5157303">
+          <caret line="27" column="70" selection-start-line="27" selection-start-column="70" selection-end-line="27" selection-end-column="70" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1830,16 +1928,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/store-web/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-24.846153">
-          <caret line="38" column="8" selection-start-line="38" selection-start-column="4" selection-end-line="46" selection-end-column="24" />
+        <state vertical-scroll-proportion="-27.346153">
+          <caret line="84" column="35" selection-start-line="84" selection-start-column="35" selection-end-line="84" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/store-web/src/main/java/com/home/it/store/servlets/BookServlet.java">
+    <entry file="file://$PROJECT_DIR$/store-web/src/main/webapp/JSP/templates/template.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.66853935">
-          <caret line="47" column="36" selection-start-line="47" selection-start-column="36" selection-end-line="47" selection-end-column="36" />
+        <state vertical-scroll-proportion="0.11805555">
+          <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/store-web/src/main/webapp/resources/scripts/validate.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="27" column="62" selection-start-line="27" selection-start-column="62" selection-end-line="27" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/store-web/src/main/webapp/JSP/registerpage.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2951389">
+          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
           <folding />
         </state>
       </provider>
