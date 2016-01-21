@@ -24,24 +24,25 @@ public class Garment extends AbstractDataBaseBean<Integer>
         this.price = price;
     }
 
+
     /**@Override
     public String getCreateSql() {
-        return CREATE_SQL;
+        return null;
     }
 
     @Override
     public String getReadSql() {
-        return READ_SQL;
+        return null;
     }
 
     @Override
     public String getUpdateSql() {
-        return UPDATEE_SQL;
+        return null;
     }
 
     @Override
     public String getDeleteSql() {
-        return DELETE_SQL;
+        return null;
     }*/
 
     @Override
@@ -61,11 +62,6 @@ public class Garment extends AbstractDataBaseBean<Integer>
         stmt.setLong(3, price.longValue());
         stmt.setString(4, picturePath);
     }
-
-    /**@Override
-    public void prepareReadStatement(PreparedStatement stmt, Integer id) throws SQLException {
-        stmt.setInt(1, id);
-    }*/
 
     @Override
     public void setDataFormResultSet(ResultSet resultSet) throws SQLException {

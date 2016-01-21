@@ -10,12 +10,13 @@
        http://www.springframework.org/schema/aop
 	   http://www.springframework.org/schema/aop/spring-aop-3.0.xsd">
 
-    <aop:aspectj-autoproxy />
     <import resource="classpath*:store-jdbc-context.xml" />
     <context:annotation-config />
     <context:component-scan base-package="com.home.it.store" />
 
     <bean id="userController" class="com.home.it.store.controllers.UserController" />
     <bean id="garmentController" class="com.home.it.store.controllers.GarmentController" />
+    <bean id="orderController" class="com.home.it.store.controllers.OrderController" />
 
+    <bean id="servletLoggindAspect" class="com.home.it.store.aop.ServletLoggingAspect" factory-method="aspectOf" />
 </beans>

@@ -19,4 +19,11 @@ public class MySqlManagerFactory extends AbstractManagerFactory {
     public GarmentManager getGarmentManager() {
         return new GarmentManager(dataSource);
     }
+
+    @Override
+    public AnonymousUserManager getAnonymousUserManager() {
+        return new AnonymousUserManager();
+    }
+
+
 }
