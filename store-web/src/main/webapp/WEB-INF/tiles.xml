@@ -16,7 +16,15 @@
                 template="/JSP/templates/template.jsp">
         <put-attribute name="header" value="/JSP/login.jsp" />
         <put-attribute name="menu" value="/JSP/menu.jsp" />
-        <put-attribute name="body" value="/JSP/" />
+        <put-attribute name="body" value="/JSP/registerpage.jsp" />
+    </definition>
+
+    <definition name="book.definition"
+                template="/JSP/templates/template.jsp">
+        <put-attribute name="header" value="/JSP/login.jsp" />
+        <put-attribute name="menu" value="/JSP/menu.jsp" />
+        <put-attribute name="body" value="/JSP/bookpage.jsp" />
+        <put-attribute name="footer" value="/JSP/order.jsp" />
     </definition>
 </tiles-definitions>
 

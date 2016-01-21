@@ -1,0 +1,28 @@
+ul#caffee_menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul#caffee_menu li a{
+    color: White;
+    background: url(../images/vert_css_menu_0.png) no-repeat 0 0;
+    text-decoration: none;
+    width: 200px;
+    height: 43px;
+    display: block;
+    border: none;
+}
+
+ul#caffee_menu li a:hover{
+    background: url(../images/vert_css_menu_1.png) no-repeat 0 0;
+    width: 200px;
+    height: 43px;
+    color: White;
+}
+
+ul#caffee_menu li a span{
+    font-size: 18px;
+    padding: 10px 0 0 22px;
+    display: block;
+}
