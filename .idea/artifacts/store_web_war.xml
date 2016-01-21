@@ -3,6 +3,11 @@
     <output-path>$PROJECT_DIR$/store-web/target</output-path>
     <root id="archive" name="store.war">
       <element id="artifact" artifact-name="store-web:war exploded" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="testng-6.9.9" />
+        </element>
+      </element>
     </root>
   </artifact>
 </component>

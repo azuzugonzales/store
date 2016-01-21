@@ -7,7 +7,6 @@
       <element id="extracted-dir" path="$MAVEN_REPOSITORY$/mysql/mysql-connector-java/5.1.37/mysql-connector-java-5.1.37.jar" path-in-jar="/" />
       <element id="extracted-dir" path="$MAVEN_REPOSITORY$/jstl/jstl/1.2/jstl-1.2.jar" path-in-jar="/" />
       <element id="extracted-dir" path="$MAVEN_REPOSITORY$/aopalliance/aopalliance/1.0/aopalliance-1.0.jar" path-in-jar="/" />
-      <element id="library" level="project" name="bin" />
       <element id="library" level="project" name="log4j-1.2.9" />
     </root>
   </artifact>

@@ -14,7 +14,6 @@
     <orderEntry type="library" name="mysql-connector-java-5.1.37" level="project" />
     <orderEntry type="library" name="aopalliance-1.0" level="project" />
     <orderEntry type="library" name="jstl-1.2" level="project" />
-    <orderEntry type="library" name="bin" level="project" />
     <orderEntry type="library" name="org.springframework:spring-core:4.2.3.RELEASE" level="project" />
     <orderEntry type="library" name="spring-core-4.2.3.RELEASE" level="project" />
     <orderEntry type="library" name="jcl-over-slf4j-1.7.6" level="project" />
