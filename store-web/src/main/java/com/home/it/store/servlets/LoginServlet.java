@@ -49,7 +49,7 @@ public class LoginServlet extends SpringContextLoaderAbstractServlet {
 
         if (params.get(LOGIN) != null) {
             try {
-                User user = userController.getBylogin(params.get(EMAIL));
+                User user = userController.getByLogin(params.get(EMAIL));
                 if (user == null || !user.getPassword().equals(params.get(PASSWORD))) {
                     req.setAttribute(LOGIN_FAILED, true);
                 } else {

@@ -17,6 +17,7 @@
     <bean id="userDao" class="com.home.it.jdbc.dao.GenericDao"
           factory-bean="userDaoFactory"
           factory-method="getDao" />
+
     <bean id="userDaoFactory" class="com.home.it.jdbc.dao.AbstractDaoFactory"
           factory-method="getDaoFactory">
         <constructor-arg name="type" value="com.home.it.jdbc.beans.User" />

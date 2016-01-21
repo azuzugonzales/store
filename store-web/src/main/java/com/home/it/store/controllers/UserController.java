@@ -12,7 +12,7 @@ public class UserController {
     @Autowired
     private UserManager manager;
 
-    public User getBylogin(String login) {
+    public User getByLogin(String login) {
         return manager.getByLogin(login);
     }
 

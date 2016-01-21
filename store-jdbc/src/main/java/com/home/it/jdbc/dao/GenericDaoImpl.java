@@ -64,7 +64,7 @@ public class GenericDaoImpl <T extends DataBaseBeanInterface<PK>, PK extends Ser
             result.prepareReadStatement(stmt, id);
             logger.debug("Statement creation - SQL prepared : " + stmt.toString());
             ResultSet resultSet = stmt.executeQuery();
-            logger.debug("Statement executed - Result recieved " + resultSet.getMetaData().toString());
+            logger.debug("Statement executed - Result received " + resultSet.getMetaData().toString());
             if (resultSet.next()) {
                 result.setId(id);
                 result.setDataFormResultSet(resultSet);

@@ -24,7 +24,7 @@ public class GarmentServlet extends SpringContextLoaderAbstractServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         resp.setContentType(TEXT_HTML);
-        String garmentNumber = req.getParameter(ID);
+        /*String garmentNumber = req.getParameter(ID);
         int id;
         if (garmentNumber == null || garmentNumber == "") {
             id = 1;
@@ -37,12 +37,12 @@ public class GarmentServlet extends SpringContextLoaderAbstractServlet {
             req.getSession().setAttribute("maxGarmentId", maxId);
         }
         Garment garment = garmentController.getGarment(id);
-        req.setAttribute(GARMENT, garment);
+        req.setAttribute(GARMENT, garment);*/
         RequestDispatcher dispatcher = getServletContext().getRequestDispatcher(MAIN_JSP);
         dispatcher.forward(req, resp);
     }
 
-    @Override
+    /*@Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         resp.setContentType(TEXT_HTML);
         Enumeration<String> parameterNames = req.getParameterNames();
@@ -79,5 +79,5 @@ public class GarmentServlet extends SpringContextLoaderAbstractServlet {
     private Garment getPrevGarment(String garmentId) {
         int id = Integer.parseInt(garmentId);
         return garmentController.getGarment(--id);
-    }
+    }*/
 }

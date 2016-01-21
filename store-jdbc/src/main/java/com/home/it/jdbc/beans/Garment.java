@@ -24,27 +24,6 @@ public class Garment extends AbstractDataBaseBean<Integer>
         this.price = price;
     }
 
-
-    /**@Override
-    public String getCreateSql() {
-        return null;
-    }
-
-    @Override
-    public String getReadSql() {
-        return null;
-    }
-
-    @Override
-    public String getUpdateSql() {
-        return null;
-    }
-
-    @Override
-    public String getDeleteSql() {
-        return null;
-    }*/
-
     @Override
     public Integer getId() {
         return id;

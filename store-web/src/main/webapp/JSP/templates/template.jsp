@@ -3,7 +3,9 @@
 "http://www.w3.org/TR/html4/loose.dtd">
 
     <table>
-        <td align="right" valign="top" width="100%" height="150px" colspan="2">
-            <tiles:insertAttribute name="header" />
-        </td>
+        <tr>
+            <td align="right" valign="top" width="100%" height="150px" colspan="2">
+                <tiles:insertAttribute name="header" />
+            </td>
+        </tr>
     </table>

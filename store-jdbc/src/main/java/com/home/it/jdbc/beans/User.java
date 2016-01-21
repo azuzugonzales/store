@@ -76,7 +76,7 @@ public class User
 
     @Override
     public String getUpdateSql() {
-        return UPDATEE_SQL;
+        return UPDATE_SQL;
     }
 
     @Override

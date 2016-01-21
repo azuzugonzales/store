@@ -9,7 +9,7 @@ public class AnonymousUserManager {
     @Autowired
     private GenericDao<AnonymousUser, Integer> anonymousUserDao;
 
-    public AnonymousUser createAnonymouseUser() {
+    public AnonymousUser createAnonymousUser() {
         AnonymousUser result = new AnonymousUser();
         String login = UUID.randomUUID().toString();
         result.setLogin(login);

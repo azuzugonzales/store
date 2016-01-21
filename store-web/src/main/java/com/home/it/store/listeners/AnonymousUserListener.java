@@ -31,7 +31,7 @@ public class AnonymousUserListener implements ServletRequestListener {
         HttpServletRequest request = (HttpServletRequest)sre.getServletRequest();
         HttpSession session = request.getSession(true);
         if (session.getAttribute("user") == null) {
-            String login = anonymousUserManager.createAnonymouseUser().getLogin();
+            String login = anonymousUserManager.createAnonymousUser().getLogin();
             User anonymous = new User("anonymous", "", login, "", "", new Date(System.currentTimeMillis()));
             session.setAttribute("user", anonymous);
         }
