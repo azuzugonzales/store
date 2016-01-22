@@ -1,4 +1,4 @@
-package com.home.it.jdbc.dao;
+package com.source.it.jdbc.dao;
 
 import org.h2.jdbcx.JdbcDataSource;
 import org.h2.tools.Server;
@@ -17,7 +17,7 @@ public class TestDbUtils {
 
     @BeforeSuite
     public void setUp() throws SQLException {
-        server = Server.createTcpServer("-tcpPort", "9123", "-tcpAllowOthers");
+        server =  Server.createTcpServer("-tcpPort", "9123", "-tcpAllowOthers");
         server.start();
         String content = null;
         JdbcDataSource dataSource = new JdbcDataSource();

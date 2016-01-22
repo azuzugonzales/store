@@ -12,6 +12,6 @@
         <tr>
             <td align="left" valign="middle" width="150"><tiles:insertAttribute name="menu" /></td>
             <td align="center" valign="middle" width="500"><tiles:insertAttribute name="body" /></td>
-            <td align="center" valign="middle" width="500"><tiles:insertAttribute name="order" /></td>
+            <%--<td align="center" valign="middle" width="500"><tiles:insertAttribute name="order" /></td>--%>
         </tr>
     </table>

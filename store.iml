@@ -26,5 +26,8 @@
     <orderEntry type="library" name="tiles-template-3.0.5" level="project" />
     <orderEntry type="library" name="tiles-extras-3.0.5" level="project" />
     <orderEntry type="library" name="tiles-request-velocity-1.0.6" level="project" />
+    <orderEntry type="library" name="aspectj-1.7.0" level="project" />
+    <orderEntry type="library" name="aspectj-1.7.0-src" level="project" />
+    <orderEntry type="library" name="org.codehaus.plexus:plexus-compiler-aspectj:1.7" level="project" />
   </component>
 </module>

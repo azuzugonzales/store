@@ -1,9 +1,14 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ taglib uri="http://tiles.apache.org/tags-tiles" prefix="tiles"%>
+
+<tiles:insertDefinition name="base.definition" />
+
 <html>
-<head>
+    <head>
+        <link rel="stylesheet" href="resources/css/all_pages.css" type="text/css" />
+    </head>
 
-</head>
-<body>
+    <body>
 
-</body>
+    </body>
 </html>
